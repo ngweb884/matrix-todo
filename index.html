@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Matrix Todo</title>
+</head>
+<body>
+    <div class="matrix-container" id="matrixContainer"></div>
+    <div class="add-task-container">
+        <input type="text" id="taskInput" placeholder="Enter a task">
+        <select id="quadrantSelect">
+            <option value="0">Do First</option>
+            <option value="1">Do Later</option>
+            <option value="2">Delegate</option>
+            <option value="3">Delete</option>
+        </select>
+        <button onclick="addTask()">Add Task</button>
+    </div>
+    <script src="linkedlist.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
